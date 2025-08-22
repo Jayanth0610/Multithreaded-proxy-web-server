@@ -10,9 +10,12 @@ commands to run :
 1)gcc proxy_server_with_cache.c proxy_parse.c -o proxy_server.exe -lpthread -lws2_32
 
 2)./proxy_server.exe 8080 (8080 is port number)
+
 3)make any requests in browser connected to proxy (only http) 
  [OR] 
+
  in another terminal run :
+
  curl.exe -x http://127.0.0.1:8080 http://google.com
 
 
